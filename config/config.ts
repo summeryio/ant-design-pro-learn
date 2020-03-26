@@ -50,7 +50,7 @@ const plugins: IPlugin[] = [
       moveMock: false,
       moveService: false,
       modifyRequest: true,
-      autoAddMenu: true,
+      autoAddMenu: true, // 在添加区块时，是否添加侧边栏name属性
     },
   ],
 ]; // 针对 preview.pro.ant.design 的 GA 统计代码
