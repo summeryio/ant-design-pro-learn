@@ -120,6 +120,12 @@ export default {
               component: './profile/basic',
             },
             {
+              name: 'list',
+              icon: 'home',
+              path: '/list/basic/list',
+              component: './list/basic/list',
+            },
+            {
               component: './404',
             },
           ],
